@@ -216,4 +216,4 @@ class AIRBNBCommand(cmd.Cmd):
 
 
 if __name__ == '__main__':
-    AIRHBNBCommand().cmdloop()
+    AIRBNBCommand().cmdloop()
