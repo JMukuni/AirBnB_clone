@@ -8,11 +8,11 @@ import re
 import json
 
 
-class HBNBCommand(cmd.Cmd):
+class AIRBNBCommand(cmd.Cmd):
 
     """Class for the command interpreter."""
 
-    prompt = "(hbnb) "
+    prompt = "(airbnb) "
 
     def default(self, line):
         """Catch commands if nothing else matches then."""
@@ -216,4 +216,4 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == '__main__':
-    HBNBCommand().cmdloop()
+    AIRHBNBCommand().cmdloop()
