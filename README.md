@@ -8,7 +8,7 @@ Create all classes used for AirBnB (User, State, City, Place…) that inherit fr
 Create the first abstracted storage engine of the project: File storage.
 Create all unittests to validate all our classes and storage engine
 
-- Files description
+# Files description
 
 - AUTHORS
 This file has a list of all individuals having contributed content to the repository.
