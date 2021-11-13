@@ -40,5 +40,5 @@ class TestHBNBCommand(unittest.TestCase):
 #         cmd = HBNBCommand()
 #         out = self.out_test(cmd.do_create, 'BaseModel', '')
 
-#with patch('sys.stdout', new=StringIO()) as f:
-#    HBNBCommand().onecmd("help show")
+with patch('sys.stdout', new=StringIO()) as f:
+    HBNBCommand().onecmd("help show")
