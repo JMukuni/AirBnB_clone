@@ -11,13 +11,14 @@ Create all unittests to validate all our classes and storage engine
 # Files description
 
 - AUTHORS
+
 This file has a list of all individuals having contributed content to the repository.
 
 - console.py
 
 It contains a command line interpreter limited to a specific use-case. In our case, we want to be able to manage the objects of our project using this console. The file contains the valid commands that you will find below:
 
-do_EOF(): exits the program typing Ctrl + d.
+|do_EOF(): |exits the program typing Ctrl + d.|
 emptyline(): an empty line + ENTER do not execute anything.
 do_quit(): exits the program.
 do_create(): Creates a new instance of a specific class and saves it (to the JSON file).
