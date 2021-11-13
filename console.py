@@ -12,7 +12,7 @@ from models import storage
 
 class HBNBCommand(cmd.Cmd):
     """Class to manage the console and all the commands built to the project"""
-    prompt = '(airbnb)'
+    prompt = '(hbnb)'
     valid_classes = ['BaseModel', 'User', 'Amenity', 'Review', 'State', 'City',
                      'Place']
 
