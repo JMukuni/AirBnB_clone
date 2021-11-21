@@ -17,3 +17,7 @@ class TestBaseModel_save(unittest.TestCase):
         '''
 
         self.assertEqual(self.save(), None)
+
+    def save(n):
+        '''saves file'''
+        pass

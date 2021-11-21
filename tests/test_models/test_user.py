@@ -15,8 +15,8 @@ class TestUser(unittest.TestCase):
         self.user = User()
 
     def test_creation(self):
-        '''this test validate that creation proccess was correct.
-        '''
+        """this test validate that creation proccess was correct.
+        """
 
         data = {'id' : 3,
                 'fist_name' : 'Betty',

@@ -13,7 +13,7 @@ class TestFileStorage(unittest.TestCase):
         self.storage = FileStorage()
 
     def test_creation(self):
-        '''
+        """
             this test validate that creation proccess was correct.
-        '''
+        """
         self.assertEqual(self.storage.save(), None)
